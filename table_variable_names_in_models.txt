@@ -1,0 +1,42 @@
+Full_name		  INCA		EMAC	    Oslo-CTM3	  UKESM1.1           CMIP6	 ACACIA		Output_name
+
+Dimensions:
+Time			  time_counter	time	    time	  time	             time	 time		time
+Longitude		  lon		lon	    lon		  longitude    	     lon	 lon		lon
+Latitude		  lat		lat	    lat		  latitude     	     lat     	 lat		lat
+Vertical_grid_level	  presnivs	lev	    lev		  model_level_number lev	 lev		lev
+
+Variables:
+Surface_pressure	  ps		ps	    ps		  ps		     aps	 ps		P_0
+Pressure		  pmid		pmid	    NONE	  pfull		     NONE	 pfull		P
+Potential_vorticity	  PV		PV	    PV		  PV		     PV	 	 PV		PV
+Ozone			  vmro3		o3	    vmro3	  vmro3		     O3 	 vmro3		O3
+Carbon_monoxide		  vmrco		co	    vmrco	  vmrco		     NONE	 vmrco		CO
+Temperature		  temp		temp	    temp	  ta		     tm1	 ta		T
+Water_vapour		  vmrh2o	h2o	    vmrh2o	  vmrh2o	     H2O	 vmrh2o		H2O
+Nitrogen_oxides		  vmrnox	nox	    vmrnox	  vmrnox	     NONE	 vmrnox		NOx
+Nitrogen_monoxide	  vmrno		no	    vmrno	  vmrno		     NONE	 vmrno		NO
+Nitrogen_dioxide	  vmrno2	no2	    vmrno2	  vmrno2	     NONE	 vmrno2		NO2
+Nitrogen_reactive_species vmrnoy	noy	    vmrnoy	  vmrnoy	     NONE	 vmrnoy		NOy
+NOy_ACACIA		  vmrnoy_ACACIA	noy_ACACIA  vmrnoy_ACACIA vmrnoy_ACACIA	     NONE	 vmrnoy_ACACIA	NOy_ACACIA
+Potential_temperature	  theta		theta	    theta	  theta		     NONE	 theta		Theta
+Ozone_to_CO_ratio	  o3toco	o3toco	    o3toco	  o3toco	     NONE	 o3toco		O3_to_CO
+Peroxyacetyl_nitrate	  vmrpan	pan	    vmrpan	  vmrpan	     NONE	 vmrpan		PAN
+Nitric_acid		  vmrhno3	hno3	    vmrhno3	  vmrhno3	     NONE	 vmrhno3	HNO3
+NOx_mask_NOy		  vmrnox	nox	    vmrnox	  vmrnox	     NONE	 vmrnox		NOx_mask_NOy
+NO_mask_NOy		  vmrno		no	    vmrno	  vmrno		     NONE	 vmrno		NO_mask_NOy
+NO2_mask_NOy	  	  vmrno2	no2	    vmrno2	  vmrno2	     NONE	 vmrno2		NO2_mask_NOy
+PAN_mask_NOy		  vmrpan	pan	    vmrpan	  vmrpan	     NONE	 vmrpan		PAN_mask_NOy
+HNO3_mask_NOy		  vmrhno3	hno3	    vmrhno3	  vmrhno3	     NONE	 vmrhno3	HNO3_mask_NOy
+O3_mask_NOy		  vmro3		o3	    vmro3	  vmro3		     NONE	 vmro3 		O3_mask_NOy
+NOx_to_NOy_ratio	  noxtonoy	noxtonoy    NONE	  noxtonoy	     NONE	 noxtonoy	NOx_to_NOy
+PAN_to_NOy_ratio	  pantonoy	pantonoy    NONE	  pantonoy	     NONE	 pantonoy	PAN_to_NOy
+HNO3_to_NOy_ratio	  hno3tonoy	hno3tonoy   NONE	  hno3tonoy	     NONE	 hno3tonoy	HNO3_to_NOy
+Stratospheric_ozone	  vmro3s	o3ste	    NONE	  o3ste		     NONE	 vmro3s		O3S
+Stratospheric_ozone_ratio o3stoo3	o3stetoo3   NONE	  o3stetoo3	     NONE	 o3stoo3	O3S_to_O3
+Inert_strat_ozone 	  vmro3i	NONE	    NONE	  NONE		     NONE	 vmro3i		O3I
+Inert_strat_ozone_ratio   o3itoo3	NONE	    NONE	  NONE		     NONE	 o3itoo3	O3I_to_O3
+Tropospheric_ozone	  vmro3t	o3t	    NONE	  o3t		     NONE	 vmro3t		O3T
+Production_rate_ozone	  chegpo3	o3prod	    NONE	  o3prod	     NONE	 NONE		Prod_O3
+Loss_rate_ozone		  cheglo3	o3loss	    NONE	  o3loss	     NONE	 NONE		Loss_O3
+Net_production_ozone	  neto3		o3net	    NONE	  o3net		     NONE	 NONE		Net_O3

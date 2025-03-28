@@ -1,0 +1,27 @@
+Full_name		     IAGOS-MOZAIC	IAGOS-CORE	 IAGOS-CARIBIC	IAGOS-CARIBIC	    Output_name
+
+Dimensions:
+Time_UTC		     UTC_time		UTC_time	 UTC_time	UTC_time	    time
+Longitude		     lon		lon		 lon		lon		    lon
+Latitude		     lat		lat		 lat		lat		    lat
+Baro_altitude		     baro_alt_AC	baro_alt_AC	 baro_alt_AC	baro_alt_AC	    altitude
+Pressure		     air_press_AC	air_press_AC	 air_press_AC	air_press_AC	    P
+
+Observed variables:
+Temperature		     air_temp_AC	air_temp_AC	 air_temp_AC	air_temp_AC	    T
+Zonal_wind_speed	     zon_wind_AC	zon_wind_AC	 zon_wind_AC	zon_wind_AC	    u
+Meridional_wind_speed	     mer_wind_AC	mer_wind_AC	 mer_wind_AC	mer_wind_AC	    v
+Ozone			     O3_PM		O3_P1		 O3_PC1		O3_PC2		    O3
+Carbon_monoxide		     CO_PM		CO_P1		 CO_PC1		CO_PC2		    CO
+Water_vapour		     H2O_gas_PM		H2O_gas_P1	 H2O_gas_PC1	H2O_gas_PC2	    H2O
+Relative_humidity_liquid     RHL_PM		RHL_P1		 NONE		NONE		    RHL
+Relative_humidity_ice	     RHI_PM		RHI_P1		 NONE		NONE		    RHI
+Cloud_liquid_water_particles NONE		cloud_P1	 NONE		NONE		    Cloud
+Nitrogen_oxides		     NOx_PM		NOx_P2		 NONE		NONE		    NOx
+Nitrogen_monoxide	     NO_PM		NO_P2		 NO_PC1 	NO_PC2		    NO
+Nitrogen_dioxide	     NONE		NONE		 NO2_PC1	NO2_PC2		    NO2
+Nitrogen_reactive_species    NOy_PM		NOy_P2		 NOy_PC1	NOy_PC2		    NOy
+
+Derived variables:
+Potential_temperature	     Theta		Theta		 Theta		Theta		    Theta
+Ozone_to_CO_ratio	     O3_to_CO	        O3_to_CO	 O3_to_CO	O3_to_CO	    O3_to_CO

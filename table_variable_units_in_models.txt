@@ -1,0 +1,45 @@
+Full_name			Output_unit	Input_unit_INCA  Conv_fact_INCA  Input_unit_EMAC  Conv_fact_EMAC  Input_unit_Oslo-CTM3 Conv_fact_Oslo-CTM3 Input_unit_UKESM1.1 Conv_fact_UKESM1.1  Input_unit_CMIP6  Conv_fact_CMIP6  Input_unit_ACACIA Conv_fact_ACACIA
+
+Dimensions:
+Time				NONE		NONE	      1    NONE          1	NONE		1    NONE	    1     NONE           1	  NONE           1
+Longitude			degrees_east	degrees_east  1	   degrees_east  1	degrees_east	1    degrees_east   1	  degrees_east	 1	  degrees_east	 1
+Latitude			degrees_north	degrees_north 1	   degrees_north 1	degrees_north	1    degrees_north  1	  degrees_north  1	  degrees_north  1
+Vertical_grid_level		level		Pa	      1	   Pa	      	 1	level		Pa   level	    1	  Pa		 1	  Pa		 1
+
+Variables:
+Ozone				ppb		"mol mol-1"   1E09 "mol/mol"     1E09	"mol mol-1"	1E09 "mol mol-1"    1E09  "mol mol-1"	 1E09     "mole mole-1"	 1E09
+Carbon_monoxide			ppb		"mol mol-1"   1E09 "mol/mol"     1E09	"mol mol-1"	1E09 "mol mol-1"    1E09  "mol mol-1"	 1E09     "mole mole-1"	 1E09
+Ozone_to_CO_ratio		"mol mol-1"	"mol mol-1"   1	   "mol/mol"     1	"mol mol-1"	1    "mol mol-1"    1	  "mol mol-1"	 1        "mole mole-1"	 1	
+Stratospheric_ozone		ppb		"mol mol-1"   1E09 "mol/mol"     1E09	"mol mol-1"	1E09 "mol mol-1"    1E09  "mol mol-1"	 1E09     "mole mole-1"	 1E09
+Stratospheric_ozone_ratio	"mol mol-1"	"mol mol-1"   1	   "mol/mol"     1	"mol mol-1"	1    "mol mol-1"    1	  "mol mol-1"	 1        "mole mole-1"	 1	
+Inert_strat_ozone		ppb		"mol mol-1"   1E09 "mol/mol"     1E09	"mol mol-1"	1E09 "mol mol-1"    1E09  "mol mol-1"	 1E09     "mole mole-1"	 1E09
+Inert_strat_ozone_ratio		"mol mol-1"	"mol mol-1"   1	   "mol/mol"     1	"mol mol-1"	1    "mol mol-1"    1	  "mol mol-1"	 1        "mole mole-1"	 1	
+Tropospheric_ozone		ppb		"mol mol-1"   1E09 "mol/mol"     1E09	"mol mol-1"	1E09 "mol mol-1"    1E09  "mol mol-1"	 1E09     "mole mole-1"	 1E09
+Water_vapour			ppm		"mol mol-1"   1E06 "mol/mol"     1E06	"mol mol-1"	1E06 "mol mol-1"    1E06  "mol mol-1"	 1E06     "mole mole-1"	 1E06
+Relative_humidity_liquid	percent		NONE	      1E02 NONE	      	 1E02	NONE		1E02 NONE 	    1E02  NONE 	         1E02	  NONE 	         1E02
+Relative_humidity_ice		percent		NONE	      1E02 NONE	      	 1E02	NONE		1E02 NONE	    1E02  NONE		 1E02	  NONE 	         1E02
+Cloud_liquid_water_particles	cm-3		cm-3	      1	   NONE	      	 1	cm-3	 	1    cm-3	    1	  cm-3	         1	  cm-3	         1
+Nitrogen_oxides			ppt		"mol mol-1"   1E12 "mol/mol"     1E12	"mol mol-1" 	1E12 "mol mol-1"    1E12  "mol mol-1"	 1E12     "mole mole-1"	 1E12
+Nitrogen_monoxide		ppt		"mol mol-1"   1E12 "mol/mol"     1E12	"mol mol-1"	1E12 "mol mol-1"    1E12  "mol mol-1"	 1E12     "mole mole-1"	 1E12
+Nitrogen_dioxide		ppt		"mol mol-1"   1E12 "mol/mol"     1E12	"mol mol-1"	1E12 "mol mol-1"    1E12  "mol mol-1"	 1E12     "mole mole-1"	 1E12
+Nitrogen_reactive_species	ppt		"mol mol-1"   1E12 "mol/mol"     1E12	"mol mol-1"	1E12 "mol mol-1"    1E12  "mol mol-1"	 1E12     "mole mole-1"	 1E12
+NOy_ACACIA			ppt		"mol mol-1"   1E12 "mol/mol"     1E12	"mol mol-1"	1E12 "mol mol-1"    1E12  "mol mol-1"	 1E12     "mole mole-1"	 1E12
+Peroxyacetyl_nitrate		ppt		"mol mol-1"   1E12 "mol/mol"     1E12	"mol mol-1"	1E12 "mol mol-1"    1E12  "mol mol-1"	 1E12     "mole mole-1"	 1E12
+NOx_mask_NOy			ppt		"mol mol-1"   1E12 "mol/mol"     1E12	"mol mol-1" 	1E12 "mol mol-1"    1E12  "mol mol-1"	 1E12     "mole mole-1"	 1E12
+NO_mask_NOy			ppt		"mol mol-1"   1E12 "mol/mol"     1E12	"mol mol-1"	1E12 "mol mol-1"    1E12  "mol mol-1"	 1E12     "mole mole-1"	 1E12
+NO2_mask_NOy			ppt		"mol mol-1"   1E12 "mol/mol"     1E12	"mol mol-1"	1E12 "mol mol-1"    1E12  "mol mol-1"	 1E12     "mole mole-1"	 1E12
+HNO3_mask_NOy			ppt		"mol mol-1"   1E12 "mol/mol"     1E12	"mol mol-1"	1E12 "mol mol-1"    1E12  "mol mol-1"	 1E12     "mole mole-1"	 1E12
+PAN_mask_NOy			ppt		"mol mol-1"   1E12 "mol/mol"     1E12	"mol mol-1"	1E12 "mol mol-1"    1E12  "mol mol-1"	 1E12     "mole mole-1"	 1E12
+O3_mask_NOy			ppb		"mol mol-1"   1E09 "mol/mol"     1E09	"mol mol-1"	1E09 "mol mol-1"    1E09  "mol mol-1"	 1E09     "mole mole-1"	 1E09
+Nitric_acid			ppt		"mol mol-1"   1E12 "mol/mol"     1E12	"mol mol-1"	1E12 "mol mol-1"    1E12  "mol mol-1"	 1E12     "mole mole-1"	 1E12
+NOx_to_NOy_ratio		"mol mol-1"	"mol mol-1"   1	   NONE	      	 1	"mol mol-1"	1    "mol mol-1"    1	  "mol mol-1"	 1	  "mole mole-1"	 1
+PAN_to_NOy_ratio		"mol mol-1"	"mol mol-1"   1	   NONE	      	 1	"mol mol-1"	1    "mol mol-1"    1	  "mol mol-1"	 1	  "mole mole-1"	 1
+HNO3_to_NOy_ratio		"mol mol-1"	"mol mol-1"   1    NONE	      	 1	"mol mol-1"	1    "mol mol-1"    1	  "mol mol-1"	 1	  "mole mole-1"	 1
+Surface_pressure		hPa		Pa	      1E-2 Pa	      	 1E-2	Pa		1E-2 Pa	 	    1E-2  Pa	 	 1E-2	  Pa	 	 1E-2
+Pressure			hPa		Pa	      1E-2 Pa	      	 1E-2	Pa		1E-2 Pa	 	    1E-2  Pa	 	 1E-2	  Pa	 	 1E-2
+Potential_vorticity		PVU		PVU	      1	   PVU	      	 1	PVU		1    PVU	    1	  PVU		 1	  pvu		 1
+Temperature			K		K	      1	   K	      	 1	K		1    K		    1	  K		 1	  K		 1
+Potential_temperature		K		NONE	      1	   NONE	      	 1	NONE		1    NONE	    1	  NONE		 1	  NONE		 1
+Production_rate_ozone		"cm-3.s-1"	"cm-3.s-1"    1	   NONE	      	 1	"cm-3.s-1"	1    NONE  	    1	  "mol m-3 s-1"  6.023E17 NONE		 1
+Loss_rate_ozone			"cm-3.s-1"	"cm-3.s-1"    1	   NONE	      	 1	"cm-3.s-1"	1    NONE  	    1	  "mol m-3 s-1"  6.023E17 NONE		 1
+Net_production_ozone		"cm-3.s-1"	"cm-3.s-1"    1	   NONE	      	 1	"cm-3.s-1"	1    NONE  	    1	  "mol m-3 s-1"  6.023E17 NONE		 1

@@ -1,0 +1,28 @@
+Full_name			Output_unit	Input_unit	Conv_fact
+
+
+Dimensions:
+Time_UTC			NONE		Seconds		1
+Longitude			degree_east	degree_east	1
+Latitude			degree_north	degree_north	1
+Baro_altitude			km		m		1E-03
+
+Observed variables:
+Ozone				ppb		ppb		1
+Carbon_monoxide			ppb		ppb		1
+Water_vapour			ppm		ppm		1
+Relative_humidity_liquid	percent		1		1E02
+Relative_humidity_ice		percent		1		1E02
+Cloud_liquid_water_particles	cm-3		"no cm-3"	1
+Nitrogen_oxides			ppt		ppb 		1E03
+Nitrogen_monoxide		ppt		ppb		1E03
+Nitrogen_dioxide		ppt		ppb		1E03
+Nitrogen_reactive_species	ppt		ppb		1E03
+Pressure			hPa		Pa		1E-02
+Temperature			K		K		1
+Zonal_wind_speed		"m.s-1"		"m s-1"		1
+Meridional_wind_speed		"m.s-1"		"m s-1"		1
+
+Derived variables:
+Potential_temperature		K		NONE		1
+Ozone_to_CO_ratio		ppu		NONE		1
