@@ -55,8 +55,11 @@ This required format is defined as follow:
 - the latitude axis starts at 90 S and stops at 90 N.
 - the vertical axis starts at the top of atmosphere and stops at the surface.
 
-Three logical bins are proposed to the user then: lon_axis_0_360, lat_axis_90N_90S, P_axis_bottom_to_top.
-If at least one of them is TRUE, then the coordinates will be automatically modified.
+Three logical bins are proposed to the user then, describing the axis setup in the model output as is submitted: 
+- lon_axis_0_360
+- lat_axis_90N_90S
+- P_axis_bottom_to_top
+If at least one of them is TRUE, then the corresponding coordinate will be automatically modified.
 
 3/
 A fortran routine is called if the user wants to interpolate the model output onto a new grid,
