@@ -69,22 +69,6 @@ for yyyymm in $listmonths ; do
 	    ### P_S files: no vertical grid.
 	    ### Latitude or longitude, depending on the file format.
 	fi
-	if [ "$sci_program" = "CMIP6" ] ; then
-	    ### VMR files
-	    ncks -O --msa -d $lon_name,180.,360. -d $lon_name,0.,179.0 $file_vmr $file_vmr 
-	    txt_command='ncap2 -O -s '"'"'where('${lon_name}' >= 180) '${lon_name}'='${lon_name}'-360'"'"' $file_vmr $file_vmr'
-	    eval $txt_command
-	    ### P files
-	    if [ "$extract_P" = "yes" ] ; then
-		ncks -O --msa -d $lon_name,180.,360. -d $lon_name,0.,179.0 $file_P $file_P
-		txt_command='ncap2 -O -s '"'"'where('${lon_name}' >= 180) '${lon_name}'='${lon_name}'-360'"'"' $file_P $file_P'
-		eval $txt_command
-	    fi
-	    ### P_S files
-	    ncks -O --msa -d $lon_name,180.,360. -d $lon_name,0.,179.0 $file_P_S $file_P_S
-	    txt_command='ncap2 -O -s '"'"'where('${lon_name}' >= 180) '${lon_name}'='${lon_name}'-360'"'"' $file_P_S $file_P_S'
-	    eval $txt_command
-	    ### No need for PV, because not in CMIP6 anyway.
 	if [ "$reverse_lat_axis" = TRUE ] ; then
 	    ncpdq -O -a '-'$lat_name $file_vmr $file_vmr
 	    status_lat_vmr=$? ; status_overall=$((status_overall+status_lat_vmr)) ; n_adj_done=$((n_adj_done+1))
